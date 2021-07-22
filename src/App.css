@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.Author {
+  text-align: right;
+  font-size: 20px;
+}
+
+.Title {
+  font-size: 150px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -16,12 +25,12 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
+  display: grid;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(80px + 2vmin);
+  color: rgb(214, 208, 208);
 }
 
 .App-link {
